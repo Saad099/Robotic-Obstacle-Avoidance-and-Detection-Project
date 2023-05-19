@@ -1,0 +1,178 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/obstacles/protos/OilBarrel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/balls/protos/FifaSoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/drinks/protos/Can.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/fruits/protos/Apple.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/advertising_board/protos/AdvertisingBoard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.045601013431844986 -0.018914283607010567 0.9987806553240919 3.9270904820907027
+  position 0.367102235119786 0.23228349270703458 0.4916780320516805
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.78 -0.69 0.02
+  floorSize 2 2
+  floorAppearance Parquetry {
+  }
+}
+TurtleBot3Burger {
+  hidden position_0_0 1765.7415116527775
+  hidden position_0_1 1372.5236537248495
+  hidden position_0_2 -14.708892288157369
+  hidden position2_0_2 7.453486454913655
+  hidden position3_0_2 43.41643555673013
+  hidden linearVelocity_0 0.14260856992852416 0.11248079447431501 1.6277032223270825e-05
+  hidden angularVelocity_0 -0.00016682730460178103 0.00016413080264861754 0.0009338530269730874
+  hidden rotation_2 0 1 0 4.878829642493309
+  hidden linearVelocity_2 0.1425749744606449 0.11260044360266842 1.0594355758062185e-05
+  hidden angularVelocity_2 -3.4028640377120154 4.321235263585904 0.0006060007296168334
+  hidden rotation_3 -0.8200903774224757 2.2907819710854077e-06 0.5722340193083714 3.141591838010363
+  hidden linearVelocity_3 0.14254050332757956 0.1123697218432413 6.814410762679649e-06
+  hidden angularVelocity_3 -3.4057403002590103 4.3189685966126445 0.0005803078164605069
+  hidden rotation_4 -0.8015923552945996 0.05137324463116123 -0.5956597062663576 2.6401660247362537
+  hidden linearVelocity_4 0.1426706552364663 0.11246362386290444 2.7171166245925173e-05
+  hidden angularVelocity_4 -28.11590596592832 35.66766380939312 9.344561821031528e-14
+  translation -0.493741884702222 -0.6334600543575027 0.019751151050211378
+  rotation 0.0023254543783647976 -0.006738678242358991 0.9999745909159292 0.667463118641264
+  controller "my_controller"
+  extensionSlot [
+    Camera {
+      translation 0.08 0 -0.07
+      children [
+        Shape {
+          geometry Capsule {
+            height 0.1
+            radius 0.01
+          }
+        }
+      ]
+      width 150
+      height 150
+      lens Lens {
+      }
+      recognition Recognition {
+      }
+    }
+  ]
+}
+AdvertisingBoard {
+  translation 0.16 -0.69 0.61
+  displayWidth 1
+  displayHeight 1
+  frameThickness 0.1
+  poleHeight 1
+  poleThickness 0.1
+  baseRatio 0.1
+}
+Apple {
+  translation -0.34821638241417496 -1.5166459731698472 0.06976456000003507
+  rotation -0.663941608963738 -0.6599892633628651 -0.35156181836539857 1.4145043758311255
+}
+Can {
+  hidden linearVelocity_0 9.178228253676642e-07 8.20747730260449e-06 5.047268126726246e-06
+  hidden angularVelocity_0 -0.00013432769031274425 1.502154872995957e-05 3.057799594196227e-16
+  translation -0.6873203818439537 0.25160493474172146 0.08096201451651136
+  rotation 8.801701500344027e-06 7.826892653529036e-06 -0.9999999999306348 1.676415382340618
+}
+Can {
+  translation -1.23737 0.05509540000000005 0.05147532000004079
+  rotation -0.732208225640621 0.46699499350522167 -0.4957688880368263 1.9027440323830689
+  name "can(2)"
+}
+Can {
+  translation -1.5770458442539692 -0.6473696734359502 0.08096266000002061
+  rotation -1.3568063774607214e-17 -2.4639598917018247e-17 1 2.2089833886844503
+  name "can(1)"
+}
+Can {
+  translation -1.7482257793107725 -0.15614418222545734 0.08096265925351347
+  rotation 0.0007086942032546611 0.007685518300978301 0.999970214836908 0.18738845795901968
+  name "can(4)"
+}
+Can {
+  translation -1.49562 0.218042 0.08096266000002061
+  rotation 9.269981596927883e-15 1.902979649767158e-15 1 0.011787743974900266
+  name "can(5)"
+}
+Can {
+  translation -1.1333529253674886 -1.5109220156063636 0.08096266000002061
+  rotation 4.591479362797051e-17 -6.241525746318084e-17 -1 1.1404356935227733
+  name "can(3)"
+}
+FifaSoccerBall {
+  hidden linearVelocity_0 -0.0016817694609693205 0.00025885700398386194 2.639337562412058e-16
+  hidden angularVelocity_0 -0.002300951146523217 -0.01494906187528285 -0.015095739850423033
+  translation -0.2675850493440026 -1.3454497954912341 0.13182507199999996
+  rotation 0.219636115495938 -0.6375045427218129 0.7384767665803085 -2.302393904671914
+}
+OilBarrel {
+  translation -0.81 -1.64 0.15
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -1.72 -0.86 0.15
+  name "oil barrel(1)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -1.72 -1.27 0.15
+  name "oil barrel(7)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -0.14 -1.64 0.15
+  name "oil barrel(8)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -1.44 -1.59 0.15
+  name "oil barrel(9)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -0.04 0.2 0.15
+  name "oil barrel(2)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -0.34 0.22 0.15
+  name "oil barrel(4)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -1.74 -0.35 0.15
+  name "oil barrel(5)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -0.97 0.21 0.15
+  name "oil barrel(6)"
+  height 0.25
+  radius 0.1
+}
+OilBarrel {
+  translation -1.66 0.12 0.13
+  name "oil barrel(3)"
+  height 0.25
+  radius 0.1
+}
